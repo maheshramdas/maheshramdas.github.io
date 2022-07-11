@@ -1,0 +1,128 @@
+* { /* Adds padding to the top of the element equal to width and height */
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body { /*sets background color of the body to white*/
+    background-color: #d9dcd6;
+}
+
+header { /* sets header padding*/
+    padding: 20px;
+    /*sets font style and colour and the backgroud color of header font*/
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+
+header h1 { /*ensure headers are all in one line*/
+    display: inline-block;
+    /*font size for h1 set to 48 pixels and color to white*/
+    font-size: 48px;
+    color: #d9dcd6;
+}
+
+header div { /* sets the subheaders padding, font type and size,*/
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+
+}
+    
+header div ul li { /*sets listing of elements inside div in one line*/
+    display: inline-block;
+    margin-left: 25px;
+}
+
+a { /* creates a hyperlink within the page having font colour white and no text decoration  */
+    color: #ffffff;
+    text-decoration: none;
+}
+
+p { /*sets paragraph font size to 16 pixels*/
+    font-size: 16px;
+}
+
+.hero {/* sets height , width, and posotioning of the website image*/
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.float-left { /*sets jpg image in the article to align on left side of the box*/
+    float: left;
+    margin-right: 25px;
+}
+
+.float-right { /*sets jpg image in the article to align on right side of the box*/
+    float: right;
+    margin-left: 25px;
+}
+
+main { /*sets contents in main to align to left with 75% width*/
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    }
+
+    main article { /*sets the padding to 50%. sets font style. sets background colour*/
+        margin-bottom: 20px;
+        padding: 50px;
+        height: 300px;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        background-color: #0072bb;
+        color: #ffffff;
+    }
+    
+    main article img { /*sets the images in the articles to 200 pixels*/
+        max-height: 200px;
+    }
+    
+    main article h2 { /*sets font size of headers in the article and bottom margin to 20 pixels*/
+        margin-bottom: 20px;
+        font-size: 36px;
+    }
+    
+aside { /*sets the width,height, font style, and background color of the sidebar */
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;    
+}
+
+aside article { /*sets the font color to white sets bottom margin*/
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+aside article h3{ /*aligns headers to centre*/
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+aside article img{ /*display image in full strech of the line*/
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+footer { /*sets padding, text font, and text alignment of footer*/
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+footer h2 { /*sets diffrent font size of header inside footer*/
+    font-size: 20px;
+}
